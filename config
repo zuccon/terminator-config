@@ -19,16 +19,9 @@
   split_horiz = <Alt><Shift>D
 
 # Many profiles here: https://pastebin.com/gGvYH6zD
+# Also nice: https://github.com/EliverLara/terminator-themes
 [profiles]
-  [[default-old]]
-    background_image = None
-    copy_on_selection = True
-    allow_bold = False
-    palette = "#002b36:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#93a1a1:#657b83:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#fdf6e3"
-    foreground_color = "#93a1a1"
-    background_color = "#002b36"
-    cursor_color = "#93a1a1"
-
+# Solarized
   [[default]]
     background_image = None
     copy_on_selection = True
