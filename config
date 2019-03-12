@@ -1,0 +1,56 @@
+[global_config]
+  title_transmit_bg_color = "#dc322f"
+  title_inactive_bg_color = "#657b83"
+  focus = system
+  borderless = True
+  window_state = fullscreen
+  close_button_on_tab = False
+  tab_position = bottom
+
+[keybindings]
+  new_tab = <Alt>T
+  go_up = <Super><Alt>Up
+  go_down = <Super><Alt>Down
+  go_left = <Super><Alt>Left
+  go_right = <Super><Alt>Right
+  # next_tab = <Alt>Right
+  # prev_tab = <Alt>Left
+  split_vert = <Alt>D
+  split_horiz = <Alt><Shift>D
+
+# Many profiles here: https://pastebin.com/gGvYH6zD
+[profiles]
+  [[default-old]]
+    background_image = None
+    copy_on_selection = True
+    allow_bold = False
+    palette = "#002b36:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#93a1a1:#657b83:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#fdf6e3"
+    foreground_color = "#93a1a1"
+    background_color = "#002b36"
+    cursor_color = "#93a1a1"
+
+  [[default]]
+    background_image = None
+    copy_on_selection = True
+    allow_bold = False
+    palette = "#002b36:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#93a1a1:#657b83:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#fdf6e3"
+    foreground_color = "#93a1a1"
+    background_color = "#002b36"
+    #cursor_color = "#93a1a1"
+    cursor_color = "#33cc33"
+    use_system_font = False
+    font = Mono 10
+    show_titlebar = False
+    scrollbar_position = "disabled"
+
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
+
